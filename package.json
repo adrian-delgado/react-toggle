@@ -1,5 +1,5 @@
 {
-  "name": "react-toggle-component",
+  "name": "@adrian-delgado/react-toggle-component",
   "version": "2.0.11",
   "private": false,
   "description": "A React UI Component to display an awesome Toggle Button control",
@@ -16,7 +16,7 @@
   "homepage": "http://gfazioli.github.io/react-toggle/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gfazioli/react-toggle"
+    "url": "git+https://github.com/gfazioli/react-toggle.git"
   },
   "bugs": {
     "url": "https://github.com/gfazioli/react-toggle/issues"
@@ -58,5 +58,8 @@
     "docz:dev": "docz dev",
     "docz:build": "docz build",
     "build": "yarn postinstall && yarn docz:build"
+  },
+  "directories": {
+    "doc": "docs"
   }
 }
